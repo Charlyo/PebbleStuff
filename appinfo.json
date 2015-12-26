@@ -1,0 +1,18 @@
+{
+  "uuid": "0bbc5303-e322-4121-97fd-4feef646af67",
+  "shortName": "hola",
+  "longName": "hola",
+  "companyName": "MakeAwesomeHappen",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
