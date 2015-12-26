@@ -26,7 +26,7 @@ static void window_load(Window *window) {
   GRect bounds = layer_get_bounds(window_layer);
 
   text_layer = text_layer_create((GRect) { .origin = { 0, 72 }, .size = { bounds.size.w, 20 } });
-  text_layer_set_text(text_layer, "Hello motherfuckers");
+  text_layer_set_text(text_layer, "Just a simple example");
   text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);
   layer_add_child(window_layer, text_layer_get_layer(text_layer));
 }
